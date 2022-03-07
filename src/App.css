@@ -7,10 +7,53 @@
   pointer-events: none;
 }
 
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+.flex-beer{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  
+  
+  gap:2rem;
+}
+.flex-beer img{
+  width: 100px;
+  height: 150px;
+}
+.orden-beer{
+  padding: 1rem;
+  border: 1px solid #282c34;
+  border-radius: 25px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.orden-beer-detail{
+  padding: 1rem;
+  margin:2rem;
+  border: 1px solid #282c34;
+  border-radius: 25px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.orden-beer p{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.orden-beer a{
+  text-decoration: none;
 }
 
 .App-header {
@@ -27,6 +70,16 @@
 .App-link {
   color: #61dafb;
 }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 @keyframes App-logo-spin {
   from {
